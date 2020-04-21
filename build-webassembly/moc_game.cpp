@@ -136,7 +136,7 @@ void Game::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< QColor*>(_v) = _t->currentColor(); break;
-        case 1: *reinterpret_cast< QString*>(_v) = _t->getCurrentPlayerName(); break;
+        case 1: *reinterpret_cast< QString*>(_v) = _t->currentPlayerName(); break;
         default: break;
         }
     } else if (_c == QMetaObject::WriteProperty) {
