@@ -62,6 +62,7 @@ bool Game::selectEdge(int i, int j)
 
 QString Game::currentPlayerName()
 {
+    qDebug() << "CurrentPlayerName: "<< whoseTurn.getName();
     return whoseTurn.getName();
 }
 

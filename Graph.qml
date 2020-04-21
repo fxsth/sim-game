@@ -590,12 +590,15 @@ Item {
             id: lostText
             x: 174
             y: 24
-            text: qsTr(game.currentPlayer + " hat verloren!")
+            text: qsTr("Starttext")
             font.bold: true
             anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
             transformOrigin: Item.Center
             font.pixelSize: 25
+        }
+        onVisibleChanged: {
+            lostText.text = qsTr(game.currentPlayer + " hat verloren!")
         }
         MouseArea{
             anchors.fill: parent

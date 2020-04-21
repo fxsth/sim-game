@@ -24,7 +24,7 @@ public:
 
     User user1;
     User user2;
-    User whoseTurn;
+    User whoseTurn = user1;
 
 signals:
     void currentColorChanged();
