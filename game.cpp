@@ -46,10 +46,12 @@ bool Game::selectEdge(int i, int j)
 {
     if(i==j)
     {
+        // Man kann Knoten nur mit einem anderen Knoten verbinden
         return false;
     }
     if(matrix[i][j]>0)
     {
+        // Wenn die Kante bereits gewählt wurde
         return false;
     }
     qDebug() << "Matrix[" << i << "][" << j << "] = " << 2-round%2;
@@ -58,7 +60,7 @@ bool Game::selectEdge(int i, int j)
     return true;
 }
 
-QString Game::getCurrentPlayerName()
+QString Game::currentPlayerName()
 {
     return whoseTurn.getName();
 }

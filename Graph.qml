@@ -590,7 +590,7 @@ Item {
             id: lostText
             x: 174
             y: 24
-            text: qsTr("Spieler hat verloren!")
+            text: qsTr(game.currentPlayer + " hat verloren!")
             font.bold: true
             anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
@@ -602,22 +602,21 @@ Item {
             onClicked: {
                 game.reset();
                 lostRect.visible = false;
-                line0.color("white");
-                line1.color("white");
-                line2.color("white");
-                line3.color("white");
-                line4.color("white");
-                line5.color("white");
-                line6.color("white");
-                line7.color("white");
-                line8.color("white");
-                line9.color("white");
-                line10.color("white");
-                line11.color("white");
-                line12.color("white");
-                line13.color("white");
-                line14.color("white");
-
+                line0.color = "white";
+                line1.color = "white";
+                line2.color = "white";
+                line3.color = "white";
+                line4.color = "white";
+                line5.color = "white";
+                line6.color = "white";
+                line7.color = "white";
+                line8.color = "white";
+                line9.color = "white";
+                line10.color = "white";
+                line11.color = "white";
+                line12.color = "white";
+                line13.color = "white";
+                line14.color = "white";
             }
         }
     }

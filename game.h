@@ -13,13 +13,13 @@ class Game : public QObject
     Q_OBJECT
 
     Q_PROPERTY(QColor currentColor READ currentColor WRITE setCurrentColor NOTIFY currentColorChanged)
-    Q_PROPERTY(QString currentPlayer READ getCurrentPlayerName WRITE setCurrentPlayerName NOTIFY playerNameChanged)
+    Q_PROPERTY(QString currentPlayer READ currentPlayerName WRITE setCurrentPlayerName NOTIFY playerNameChanged)
 
 public:
     explicit Game(QObject *parent = nullptr);
     QColor currentColor();
     void setCurrentColor(QColor color);
-    QString getCurrentPlayerName();
+    QString currentPlayerName();
     void setCurrentPlayerName(QString name);
 
     User user1;
