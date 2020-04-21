@@ -1,0 +1,4 @@
+#Tue Apr 21 11:34:44 CEST 2020
+base.0=/home/felix/Qt-Projekte/Sim/build-android/android-build/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

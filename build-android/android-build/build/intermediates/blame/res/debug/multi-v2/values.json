@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/felix/Qt-Projekte/Sim/build-android/android-build/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/felix/Qt/5.14.2/android/src/android/java/res/values/strings.xml",
+                    "from": {
+                        "startLines": "5,4,3,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "319,197,85,427",
+                        "endColumns": "107,121,111,97",
+                        "endOffsets": "422,314,192,520"
+                    },
+                    "to": {
+                        "startLines": "25,26,27,28",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1125,1233,1355,1467",
+                        "endColumns": "107,121,111,97",
+                        "endOffsets": "1228,1350,1462,1560"
+                    }
+                },
+                {
+                    "source": "/home/felix/Qt-Projekte/Sim/build-android/android-build/res/values/libs.xml",
+                    "from": {
+                        "startLines": "9,28,13,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "292,1070,347,55",
+                        "endLines": "11,30,26,4",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "341,1243,1064,166"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,22",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,109,287,1009",
+                        "endLines": "4,7,21,24",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "104,282,1004,1120"
+                    }
+                }
+            ]
+        }
+    ]
+}
